@@ -560,15 +560,14 @@
       </div>
     </div>
   </section>
-
-  <!-- KONTAKT -->
+<!-- KONTAKT -->
   <section class="contact" id="kontakt">
     <div class="container contact-grid">
       <div class="contact-info reveal">
         <span class="eyebrow" style="color:var(--lime-light)">Kontakt</span>
         <h2>Porozmawiajmy<br>o Twoim wydarzeniu</h2>
         <p>Napisz kilka słów o okazji, liczbie gości i lokalizacji — odpowiemy z propozycją oferty dopasowaną do Twojego budżetu.</p>
-        <div class="contact-line"><b>Telefon</b><a href="tel:+48500000000">+48 500 000 000</a></div>
+        <div class="contact-line"><b>Telefon</b><a href="tel:+48695256961">+48 695 256 961</a></div>
         <div class="contact-line"><b>E-mail</b><a href="mailto:kontakt@twistandlime.pl">kontakt@twistandlime.pl</a></div>
         <div class="contact-line"><b>Zasięg</b><span>Lublin i województwo lubelskie</span></div>
         <div class="contact-line"><b>Godziny</b><span>Pon.–Sob. 10:00–19:00</span></div>
@@ -578,7 +577,8 @@
         </div>
       </div>
 
-      <form id="contactForm" novalidate>
+      <!-- Formularz z wysyłką przez Formspree -->
+      <form id="contactForm" action="https://formspree.io/f/TWOJ_ID_FORMSPREE" method="POST">
         <div class="form-row">
           <div>
             <label for="fname">Imię i nazwisko</label>
@@ -586,7 +586,7 @@
           </div>
           <div>
             <label for="fphone">Telefon</label>
-            <input type="tel" id="fphone" name="fphone" placeholder="+48 000 000 000" required>
+            <input type="tel" id="fphone" name="fphone" placeholder="+48 695 256 961" required>
           </div>
         </div>
         <div class="form-row">
@@ -614,7 +614,6 @@
       </form>
     </div>
   </section>
-
 </main>
 
 <footer>
